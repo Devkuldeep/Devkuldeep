@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Hero from "./Components/Ui/hero";
 import About from "./Components/Ui/about";
-import Cta from "./Components/Ui/cta";
+import Expert from "./Components/Ui/cta";
 import Contact from "./Components/Ui/contact";
 
 
@@ -11,8 +11,8 @@ export default function Home() {
     <main className="container m-auto flex min-h-screen flex-col w-full">
      <Hero/>
      <About/>  
-     <Cta/>
-     <Contact/>
+     <Expert/>
+     {/* <Contact/> */}
     </main>
     </>
   );

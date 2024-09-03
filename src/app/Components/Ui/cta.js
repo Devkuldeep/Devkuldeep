@@ -8,10 +8,10 @@ export default function Cta() {
     <h2 className="mx-auto max-w-2xl text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
       Explore Project
     </h2>
-    <h3 className="mx-auto mt-6 max-w-xl text-lg leading-8 text-gray-500">
+    <h3 className="mx-auto mt-2 max-w-xl text-lg leading-tight text-gray-500">
     Explore the world of innovation and technology.
     </h3>
-    <div className="mt-8 flex items-center justify-center gap-x-6">
+    <div className="mt-4 flex items-center justify-center gap-x-6">
       <a
         className="inline-flex items-center justify-center gap-2 rounded-xl bg-blue-600 px-4 py-3 text-sm font-semibold text-white shadow-sm transition-all duration-150 hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
         href="/webdevelopment"

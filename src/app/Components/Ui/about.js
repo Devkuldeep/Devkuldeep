@@ -6,7 +6,7 @@ export default function About() {
 
     <main className="flex min-h-screen flex-col items-center justify-between p-8 select-none w-full">
 
-      <h3 id="about" className="lg:text-4xl text-xl font-bold text-black">About Me</h3>
+      <h3 id="about" className="lg:text-4xl text-3xl font-bold text-black">About Me</h3>
 
       <section className="pt-10  md:pt-0 sm:pt-16 2xl:pt-16">
       
@@ -14,9 +14,9 @@ export default function About() {
           <div className="grid items-center grid-cols-1 md:grid-cols-2">
 
             <div>
-              <h2 className="text-2xl font-semibold leading-tight text-slate-800  sm:text-sm lg:text-xl mt-2 lg:mt-6">Kuldeep Patel - Aspiring Full Stack Developer
+              <h2 className="text-xl font-semibold leading-tight text-slate-700   lg:text-xl mt-2 lg:mt-6">Kuldeep Patel - Aspiring Full Stack Developer
               </h2>
-              <p className="max-w-lg mt-3 text-xl leading-relaxed text-gray-600  md:mt-2">
+              <p className="max-w-lg mt-1 sm:mt-3 text-[16px] sm:text-[16px] leading-relaxed text-gray-600      whitespace-pre-line   ">
              
 
 
@@ -24,13 +24,22 @@ export default function About() {
               </p>
 
               <p className="mt-2 text-xl text-gray-600  md:mt-4">
+                
+                
                 <span className="relative inline-block">
                   <span className="absolute inline-block w-full bottom-0.5 h-2 bg-yellow-300"></span>
-                  <span className="relative cursor-pointer select-none">Visit My <a href="https://www.linkedin.com/in/kuldeep-patel-09a0041a7/" title=""
+
+                  <span className="relative cursor-pointer select-none">Visit My <a href="https://www.linkedin.com/in/kuldeep-patel-09a0041a7/" title="linkedin"
                     className="transition-all duration-200 font-semibold text-sky-500  hover:text-sky-600  hover:underline"> Linkdin</a>  </span>
                 </span>
-                <br className="block sm:hidden font-semibold" /> Explore <a href="https://www.github.com/devkuldeep" title=""
+
+                <br className="block sm:hidden " />
+                
+
+               <span className="inline-block mt-2 sm:m-4">
+               Explore <a href="https://www.github.com/devkuldeep" title=""
                   className="transition-all duration-200 font-semibold text-sky-500  hover:text-sky-600  hover:underline"> Github</a>
+               </span>
               </p>
             </div>  
 
@@ -55,7 +64,7 @@ export default function About() {
       <section className="container mx-auto px-4 space-y-6 bg-slate-50 py-4 md:py-4 lg:py-8">
 
         <div className="mx-auto flex max-w-[58rem] flex-col items-center space-y-4 text-center">
-          <h3 id="about" className="lg:text-4xl text-xl font-bold text-black">Skills</h3>
+          <h3 id="about" className="lg:text-4xl text-3xl mt-2 font-bold text-black">Skills</h3>
 {/* 
           <p className="max-w-[85%] leading-normal text-muted-foreground sm:text-lg sm:leading-7">
 
@@ -203,8 +212,8 @@ export default function About() {
         <section id="new-features" className="py-2 bg-white sm:py-10 lg:py-4">
           <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
             <div className="text-center">
-              <h2 className="text-xl font-bold leading-tight text-gray-900 sm:text-4xl xl:text-5xl">
-                Expertise{" "}
+              <h2 className="text-3xl font-bold mt-4 mb-8 leading-tight text-gray-900 sm:text-4xl xl:text-5xl">
+                Expertise
               </h2>
               <p className="mt-4 text-base leading-7 text-gray-600 sm:mt-8">
 
@@ -309,13 +318,13 @@ export default function About() {
         <div className="py-12 bg-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="lg:text-center">
-              <h2 className="font-heading mb-4 bg-orange-100 text-orange-900 px-4 py-2 rounded-lg md:w-64 md:mx-auto text-xs font-semibold tracking-widest  uppercase title-font">
+              <h2 className="font-heading mb-4 bg-orange-100 text-orange-900 px-4 py-2 rounded-lg md:w-64 md:mx-auto text-sm font-semibold tracking-widest  uppercase title-font ">
                 Why choose us?
               </h2>
-              <p className="font-heading mt-2 text-3xl leading-8 font-semibold tracking-tight text-gray-900 sm:text-4xl">
-                I know tech, I know solutions. I am web expert.
+              <p className="font-heading mt-8  sm:mt-2 text-xl  font-semibold tracking-tight leading-tight text-gray-900 sm:text-4xl capitalize">
+                I know tech, I know the solutions. I am web expert.
               </p>
-              <p className="mt-4 max-w-2xl text-lg text-gray-500 lg:mx-auto">
+              <p className=" mt-2 sm:mt-2 max-w-2xl text-sm sm:text-lg text-gray-500 lg:mx-auto">
                 i know how to handle projects in a effiecient way . i care for flexibility and scalibility.
               </p>
             </div>
@@ -365,7 +374,7 @@ export default function About() {
                 <div className="relative">
                   <dt>
                     <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-primary-500 text-white">
-                      <img src="https://www.svgrepo.com/show/76267/free-commercial-label.svg" />
+                      <Image src="https://www.svgrepo.com/show/76267/free-commercial-label.svg" width="300" height="300" />
                     </div>
                     <p className="font-heading ml-16 text-lg leading-6 font-bold text-gray-700">
                       Project Name 4:

@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function Hero() {
   return (<>
 
-    <div className=" w-full  min-h-screen m-auto lg:p-14 p-8">
+    <div className=" w-full   m-auto sm:p-14 p-8">
 
       <section className="hero m-auto w-full">
         
@@ -24,7 +24,9 @@ export default function Hero() {
             <p className="mt-2 lg:text-xl md:text-sm sm:text-xs text-black ">Designer and Developer devoted to
               crafting beautiful web experiences
               focused on simplicity and purpose.</p>
-            <div className='flex'>
+         
+         
+            <div className='flex items-center justify-center'>
               <button className="text-lg md:text-2xl bg-orange-300 text-slate-900 py-2 m-2 px-5 mt-10 hover:bg-orange-500 rounded-full outline-1  font-bold  transition-all duration-500" ><a href='/webdevelopment'>Projects</a></button>
               <button className="text-lg md:text-2xl bg-orange-300 text-black py-2 m-2 px-5 mt-10 font-bold  hover:bg-orange-500 rounded-full transition-all duration-500" > <a href='/cv.pdf'>CV ⬇️</a></button>
             </div>

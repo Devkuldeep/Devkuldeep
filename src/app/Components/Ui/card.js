@@ -23,7 +23,7 @@ export default function Cards(params) {
         <h1 className="font-bold text-4xl mb-4">{params.title}</h1>
         <h1 className="text-xl font-semibold">{params.desc}</h1>
       </div>
-     <div className="listcard container mt-3 flex flex-col lg:flex-row items-center gap-4 lg:gap-8" >       
+     <div className="listcard container mt-3 flex flex-col sm:flex-row items-center gap-8 lg:gap-8" >       
      {card}
      </div>
     </main>
@@ -38,10 +38,10 @@ function Card({ name, link, image, github, tech_stack }) {
       <h1 className='font-bold mt-2'>{name}</h1>
       <p className="text-xs font-semibold text-slate-500">{tech_stack}</p>
      <div className="navigation flex justify-between p-2">
-     <a href={link} target="_blank" rel="noopener noreferrer" className="px-2 py-1  m-2  bg-orange-100 hover:bg-orange-300 rounded-md" >
+     <a href={link} target="_blank" rel="noopener noreferrer" className="px-2 py-1  m-2  bg-orange-100 hover:bg-orange-300 rounded-md font-semibold" >
         visit 
       </a>
-      <a href={github} target="_blank" rel="noopener noreferrer" className="px-2 py-1 m-2  bg-orange-100  hover:bg-orange-300 rounded-md" >
+      <a href={github} target="_blank" rel="noopener noreferrer" className="px-2 py-1 m-2  bg-orange-100  hover:bg-orange-300 rounded-md font-semibold" >
         download
       </a>
      </div>

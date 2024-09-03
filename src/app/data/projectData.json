@@ -1,6 +1,6 @@
 {
     "projects": [
-      {
+      { "id": "1",
         "name": "Portfolio Website",
         "tech_stack": ["HTML", "CSS", "JavaScript"],
         "description": "A personal portfolio website showcasing my projects, blogs, and contact information.",
@@ -10,12 +10,13 @@
         "image_path": "/p_img/web2.0.png"
       },
       {
+        "id": "2",
         "name": "Frontend Hero Page",
         "tech_stack":  ["HTML", "CSS", "JavaScript"],
         "description": "A personal portfolio website showcasing my projects, blogs, and contact information.",
         "how_to_use": "Clone the repository, install dependencies using npm or yarn, and run the development server using `npm run dev`.",
-        "live_link": "https://devkuldeep.github.io/Web2.0/",
-        "github_link": "https://github.com/Devkuldeep/Web2.0/",
+        "live_link": "https://devkuldeep.github.io/Web1.0/",
+        "github_link": "https://github.com/Devkuldeep/Web1.0/",
         "image_path": "/p_img/web1.0.png"
       }
      

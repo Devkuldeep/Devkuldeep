@@ -14,8 +14,8 @@ export default function Sidebar() {
       }
 
   return (<>
-   <div className=" fixed top-0 left-0 z-[1000]  w-[30%]">
-    <div className="px-6 py-4  "><button onClick={handleClick}>
+   <div className=" fixed top-3 left-2 z-[1000] w-auto ">
+    <div className="px-4 py-2  "><button onClick={handleClick}>
     <Image
       src="/menu-line.png"
       width={32}
@@ -25,14 +25,14 @@ export default function Sidebar() {
 
         </button></div>
    
-        <div className="side_container fixed hidden top-0 left-0 z-[-50] w-[30%] "  id="sidebar">
+        <div className="side_container select-none fixed hidden top-0 left-0 z-[-50] w-3/4 lg:w-[30%] "  id="sidebar">
 <div className="flex h-screen flex-col justify-between border-e bg-white">
   <div className="px-4 py-6 mt-10">
 
     
 
 
-    <span className="grid h-10 place-content-center rounded-lg bg-gray-100 text-xs text-gray-600 font-semibold">
+    <span className="grid h-10 place-content-center rounded-lg bg-gray-100 text-lg text-gray-600 font-semibold">
      Kuldeep Dev
     </span>
 
@@ -40,7 +40,7 @@ export default function Sidebar() {
       <li>
         <Link
           href="/"
-          className="block rounded-lg bg-gray-100 px-4 py-2 text-sm font-medium text-gray-700"
+          className="block rounded-lg bg-gray-100 px-4 py-2 text-lg font-semibold text-gray-700"
         >
           Home
         </Link>
@@ -51,7 +51,7 @@ export default function Sidebar() {
       <li>
         <Link
           href="/#about"
-          className="block rounded-lg px-4 py-2 text-sm font-medium text-gray-500 hover:bg-gray-100 hover:text-gray-700"
+          className="block rounded-lg px-4 py-2 text-lg font-semibold text-gray-500 hover:bg-gray-100 hover:text-gray-700"
         >
           About
         </Link>
@@ -60,7 +60,7 @@ export default function Sidebar() {
       <li>
         <Link
           href="/#contact"
-          className="block rounded-lg px-4 py-2 text-sm font-medium text-gray-500 hover:bg-gray-100 hover:text-gray-700"
+          className="block rounded-lg px-4 py-2 text-lg font-semibold text-gray-500 hover:bg-gray-100 hover:text-gray-700"
         >
           Contact
         </Link>
@@ -71,7 +71,7 @@ export default function Sidebar() {
           <summary
             className="flex cursor-pointer items-center justify-between rounded-lg px-4 py-2 text-gray-500 hover:bg-gray-100 hover:text-gray-700"
           >
-            <span className="text-sm font-medium"> Projects </span>
+            <span className="text-lg font-semibold"> Projects </span>
 
             <span className="shrink-0 transition duration-300 group-open:-rotate-180">
               <svg
@@ -93,7 +93,7 @@ export default function Sidebar() {
             <li>
               <Link
                 href="webdevelopment"
-                className="block rounded-lg px-4 py-2 text-sm font-medium text-gray-500 hover:bg-gray-100 hover:text-gray-700"
+                className="block rounded-lg px-4 py-2 text-sm font-semibold text-gray-500 hover:bg-gray-100 hover:text-gray-700"
               >
                 Web Development
               </Link>
@@ -102,7 +102,7 @@ export default function Sidebar() {
             <li>
               <Link
                 href="graphics"
-                className="block rounded-lg px-4 py-2 text-sm font-medium text-gray-500 hover:bg-gray-100 hover:text-gray-700"
+                className="block rounded-lg px-4 py-2 text-sm font-semibold text-gray-500 hover:bg-gray-100 hover:text-gray-700"
               >
                 Graphic Design
               </Link>
@@ -111,7 +111,7 @@ export default function Sidebar() {
             <li>
               <Link
                 href="blogs"
-                className="block rounded-lg px-4 py-2 text-sm font-medium text-gray-500 hover:bg-gray-100 hover:text-gray-700"
+                className="block rounded-lg px-4 py-2 text-sm font-semibold text-gray-500 hover:bg-gray-100 hover:text-gray-700"
               >
                Blogs
               </Link>

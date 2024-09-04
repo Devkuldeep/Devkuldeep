@@ -76,14 +76,8 @@ export default function About() {
 
           <div
             className="relative overflow-hidden rounded-lg border bg-white select-none hover:shadow hover:shadow-teal-200 p-2">
-            <div className="flex h-[180px] flex-col justify-between rounded-md p-6">
-              <svg >
-
-
-
-
-
-              </svg>
+            <div className="flex h-[180px] flex-col justify-between items-center rounded-md p-6">
+              <Image src={"/frontend.png"} alt={"image"} className="object-contain mx-auto" width={70} height={70}/>
               <div className="space-y-2">
                 <h3 className="font-bold">Frontend Development:</h3>
                 <p className="text-sm text-muted-foreground"> Html  Css Javascript.</p>
@@ -93,14 +87,8 @@ export default function About() {
 
           <div
             className="relative overflow-hidden rounded-lg border bg-white select-none hover:shadow hover:shadow-teal-200 p-2">
-            <div className="flex h-[180px] flex-col justify-between rounded-md p-6">
-              <svg >
-
-
-
-
-
-              </svg>
+            <div className="flex h-[180px] flex-col justify-between items-center rounded-md p-6">
+            <Image src={"/backend.png"} alt={"image"} className="object-contain mx-auto" width={70} height={70}/>
               <div className="space-y-2">
                 <h3 className="font-bold">Backend Development:</h3>
                 <p className="text-sm"> Nodejs  Expressjs Php.</p>
@@ -110,14 +98,8 @@ export default function About() {
 
           <div
             className="relative overflow-hidden rounded-lg border bg-white select-none hover:shadow hover:shadow-teal-200 p-2">
-            <div className="flex h-[180px] flex-col justify-between rounded-md p-6">
-              <svg >
-
-
-
-
-
-              </svg>
+            <div className="flex h-[180px] flex-col justify-between items-center rounded-md p-6">
+            <Image src={"/git.png"} alt={"image"} className="object-contain mx-auto" width={70} height={70}/>
               <div className="space-y-2">
                 <h3 className="font-bold">Version Control:</h3>
                 <p className="text-sm text-muted-foreground">Git Github.</p>
@@ -127,14 +109,8 @@ export default function About() {
 
           <div
             className="relative overflow-hidden rounded-lg border bg-white select-none hover:shadow hover:shadow-teal-200 p-2">
-            <div className="flex h-[180px] flex-col justify-between rounded-md p-6">
-              <svg >
-
-
-
-
-
-              </svg>
+            <div className="flex h-[180px] flex-col justify-between items-center rounded-md p-6">
+            <Image src={"/prob.png"} alt={"image"} className="object-contain  mx-auto" width={70} height={70}/>
               <div className="space-y-2">
                 <h3 className="font-bold">Problem Solving: </h3>
                 <p className="text-sm text-muted-foreground">DataStructure Algorithms.</p>
@@ -144,14 +120,8 @@ export default function About() {
 
           <div
             className="relative overflow-hidden rounded-lg border bg-white select-none hover:shadow hover:shadow-teal-200 p-2">
-            <div className="flex h-[180px] flex-col justify-between rounded-md p-6">
-              <svg >
-
-
-
-
-
-              </svg>
+            <div className="flex h-[180px] flex-col justify-between items-center rounded-md p-6">
+            <Image src={"/db6.png"} alt={"image"} className="object-contain mx-auto" width={70} height={70}/>
               <div className="space-y-2">
                 <h3 className="font-bold">Database Management:</h3>
                 <p className="text-sm text-muted-foreground">Mongodb Mysql .</p>
@@ -161,14 +131,8 @@ export default function About() {
 
           <div
             className="relative overflow-hidden rounded-lg border bg-white select-none hover:shadow hover:shadow-teal-200 p-2">
-            <div className="flex h-[180px] flex-col justify-between rounded-md p-6">
-              <svg >
-
-
-
-
-
-              </svg>
+            <div className="flex h-[180px] flex-col justify-between items-center rounded-md p-6">
+            <Image src={"/api2.png"} alt={"image"} className="object-contain ab mx-auto" width={70} height={70}/>
               <div className="space-y-2">
                 <h3 className="font-bold">API Integration:</h3>
                 <p className="text-sm text-muted-foreground">Rest Api.</p>
@@ -205,14 +169,11 @@ export default function About() {
 
 
       <>
-        <link
-          rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
-        />
+       
         <section id="new-features" className="py-2 bg-white sm:py-10 lg:py-4">
           <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
             <div className="text-center">
-              <h2 className="text-3xl font-bold mt-4 mb-8 leading-tight text-gray-900 sm:text-4xl xl:text-5xl">
+              <h2 className="text-3xl font-bold mt-4 mb-12 sm:mb-2 leading-tight text-gray-900 sm:text-4xl xl:text-5xl">
                 Expertise
               </h2>
               <p className="mt-4 text-base leading-7 text-gray-600 sm:mt-8">
@@ -223,60 +184,60 @@ export default function About() {
               {/* Feature 1 */}
               <div className="md:p-8 lg:p-14 flex flex-col justify-center items-center">
                 <div className="w-14 h-14 rounded-full bg-purple-200 flex justify-center items-center">
-                  <i className="fa-solid fa-chart-column text-3xl text-gray-900" />
+                <Image src={"/frontend4.png"} alt={"image"} className="object-contain  mx-auto" width={70} height={70}/>
                 </div>
-                <h3 className="mt-12 text-xl font-bold text-gray-900">
+                <h3 className="mt-4 text-xl font-bold text-gray-900">
                   Web Developement
                 </h3>
-                <p className="mt-5 text-base text-gray-600">
+                <p className="mt-2 text-base text-gray-600">
                   Specializing in modern, responsive web applications using React, Next.js, and Node.js.
                 </p>
               </div>
               {/* Feature 2 */}
               <div className="md:p-8 lg:p-14 md:border-l md:border-gray-200 flex flex-col justify-center items-center">
                 <div className="w-14 h-14 rounded-full bg-teal-200 flex justify-center items-center">
-                  <i className="fa-solid fa-truck-fast text-3xl text-gray-900" />
+                <Image src={"/software4.png"} alt={"image"} className="object-contain  mx-auto" width={70} height={70}/>
                 </div>
-                <h3 className="mt-12 text-xl font-bold text-gray-900">
+                <h3 className="mt-4 text-xl font-bold text-gray-900">
                   Software Architecture:
                 </h3>
-                <p className="mt-5 text-base text-gray-600">
+                <p className="mt-2 text-base text-gray-600">
                   Designing scalable systems with a focus on modularity and the MVC pattern.
                 </p>
               </div>
               {/* Feature 3 */}
-              <div className="md:p-8 lg:p-14 md:border-l md:border-gray-200 flex flex-col justify-center items-center">
-                <div className="w-14 h-14 rounded-full bg-yellow-200 flex justify-center items-center">
-                  <i className="fa-solid fa-shield text-3xl text-gray-900" />
+              <div className="md:p-8 lg:p-14 md:border-l md:border-b md:border-gray-200 flex flex-col justify-center items-center">
+                <div className="w-14 h-14 rounded-full bg-blue-200 flex justify-center items-center">
+                <Image src={"/blockchain.png"} alt={"image"} className="object-contain  mx-auto" width={70} height={70}/>
                 </div>
-                <h3 className="mt-12 text-xl font-bold text-gray-900">
+                <h3 className="mt-4 text-xl font-bold text-gray-900">
                   Blockchain and Web3
                 </h3>
-                <p className="mt-5 text-base text-gray-600">
+                <p className="mt-2 text-base text-gray-600">
                   Knowledgeable in blockchain and Web3 for future-ready decentralized applications.
                 </p>
               </div>
               {/* Feature 4 */}
-              <div className="md:p-8 lg:p-14 md:border-t md:border-gray-200 flex flex-col justify-center items-center">
-                <div className="w-14 h-14 rounded-full bg-red-200 flex justify-center items-center">
-                  <i className="fa-solid fa-cloud text-3xl text-gray-900" />
+              <div className="md:p-8 lg:p-14 md:border-t md:border-r md:border-gray-200 flex flex-col justify-center items-center">
+                <div className="w-14 h-14 rounded-full bg-yellow-200 flex justify-center items-center">
+                <Image src={"/github.png"} alt={"image"} className="object-contain  mx-auto" width={70} height={70}/>
                 </div>
-                <h3 className="mt-12 text-xl font-bold text-gray-900">
+                <h3 className="mt-4 text-xl font-bold text-gray-900">
                   GitHub Integration:
                 </h3>
-                <p className="mt-5 text-base text-gray-600">
+                <p className="mt-2 text-base text-gray-600">
                   Expertise in integrating GitHub for smooth collaboration, version control, and deployment.
                 </p>
               </div>
               {/* Feature 5 */}
-              <div className="md:p-8 lg:p-14 md:border-t md:border-gray-200 flex flex-col justify-center items-center">
-                <div className="w-14 h-14 rounded-full bg-red-200 flex justify-center items-center">
-                  <i className="fa-solid fa-cloud text-3xl text-gray-900" />
+              <div className="md:p-8 lg:p-14 md:border-t md:border-r  md:border-gray-200 flex flex-col justify-center items-center">
+                <div className="w-14 h-14 rounded-full bg-purple-200 flex justify-center items-center">
+                <Image src={"/cloud.png"} alt={"image"} className="object-contain  mx-auto" width={70} height={70}/>
                 </div>
-                <h3 className="mt-12 text-xl font-bold text-gray-900">
+                <h3 className="mt-4 text-xl font-bold text-gray-900">
                   cloud Integration:
                 </h3>
-                <p className="mt-5 text-base text-gray-600">
+                <p className="mt-2 text-base text-gray-600">
                   Expertise in integrating GitHub for smooth collaboration, version control, and deployment.
                 </p>
               </div>

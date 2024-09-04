@@ -65,8 +65,7 @@ export default function About() {
 
         <div className="mx-auto flex max-w-[58rem] flex-col items-center space-y-4 text-center">
           <h3 id="about" className="lg:text-4xl text-3xl mt-2 font-bold text-black">Skills</h3>
-{/* 
-          <p className="max-w-[85%] leading-normal text-muted-foreground sm:text-lg sm:leading-7">
+{/*     <p className="max-w-[85%] leading-normal text-muted-foreground sm:text-lg sm:leading-7">
 
           </p> */}
 
@@ -226,7 +225,7 @@ export default function About() {
                   GitHub Integration:
                 </h3>
                 <p className="mt-2 text-base text-gray-600">
-                  Expertise in integrating GitHub for smooth collaboration, version control, and deployment.
+                Expertise in integrating GitHub for seamless version control, collaboration, and continuous deployment.
                 </p>
               </div>
               {/* Feature 5 */}
@@ -238,7 +237,19 @@ export default function About() {
                   cloud Integration:
                 </h3>
                 <p className="mt-2 text-base text-gray-600">
-                  Expertise in integrating GitHub for smooth collaboration, version control, and deployment.
+                Deploy applications on AWS, Azure, or Google Cloud with scalable infrastructure.
+                </p>
+              </div>
+              {/* Feature 6 */}
+              <div className="md:p-8 lg:p-14 md:border-t md:border-r  md:border-gray-200 flex flex-col justify-center items-center">
+                <div className="w-14 h-14 rounded-full bg-purple-200 flex justify-center items-center">
+                <Image src={"/ai.png"} alt={"image"} className="object-contain  mx-auto" width={70} height={70}/>
+                </div>
+                <h3 className="mt-4 text-xl font-bold text-gray-900">
+                  Ai Integration:
+                </h3>
+                <p className="mt-2 text-base text-gray-600">
+                Integrate AI models for predictive analytics, NLP, and computer vision.
                 </p>
               </div>
 
@@ -294,56 +305,60 @@ export default function About() {
                 <div className="relative">
                   <dt>
                     <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-primary-500 text-white">
-                      <img src="https://www.svgrepo.com/show/503163/api-settings.svg" />
+                      <Image src={"/node.png"} alt={"image"} className="" height={70} width={70}/>
                     </div>
                     <p className="font-heading ml-16 text-lg leading-6 font-bold text-gray-700">
-                      Project Name 1:
+                    Real-Time Chat App
                     </p>
                   </dt>
                   <dd className="mt-2 ml-16 text-base text-gray-500">
-                    Brief overview highlighting key features, technologies, and problem-solving approach.
+                  
+                  Built a Node.js chat app with real-time messaging and user authentication. Integrated Socket.io for seamless communication and MongoDB for storing chat history.
                   </dd>
                 </div>
                 <div className="relative">
                   <dt>
                     <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-primary-500 text-white">
-                      <img src="https://www.svgrepo.com/show/503138/webpack.svg" />
+                    <Image src={"/react.png"} alt={"image"} className="" height={70} width={70}/>
                     </div>
                     <p className="font-heading ml-16 text-lg leading-6 font-bold text-gray-700">
-                      Project Name 2:
+                    Scalable E-Commerce Platform
                     </p>
                   </dt>
                   <dd className="mt-2 ml-16 text-base text-gray-500">
                     {" "}
-                    Key project focusing on challenges and solutions.
+                   
+                    Developed a scalable e-commerce site using microservices architecture. Optimized for high traffic with load balancing and Docker/Kubernetes for smooth scaling.
                   </dd>
                 </div>
                 <div className="relative">
                   <dt>
                     <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-primary-500 text-white">
-                      <img src="https://www.svgrepo.com/show/511771/dashboard-671.svg" />
+                    <Image src={"/git.png"} alt={"image"} className="" height={70} width={70}/>
                     </div>
                     <p className="font-heading ml-16 text-lg leading-6 font-bold text-gray-700">
-                      Project Name 3:
+                    Blockchain Supply Chain
                     </p>
                   </dt>
                   <dd className="mt-2 ml-16 text-base text-gray-500">
                     {" "}
-                    Showcasing expertise in a specific area like blockchain, frontend, or backend.
+                 
+                    Created a decentralized supply chain system with Ethereum smart contracts. Ensured transparency and traceability across the entire supply chain.
                   </dd>
                 </div>
                 <div className="relative">
                   <dt>
                     <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-primary-500 text-white">
-                      <Image src="https://www.svgrepo.com/show/76267/free-commercial-label.svg" width="300" height="300" />
+                    <Image src={"/api5.png"} alt={"image"} className="" height={70} width={70}/>
                     </div>
                     <p className="font-heading ml-16 text-lg leading-6 font-bold text-gray-700">
-                      Project Name 4:
+                    FinTech API Integration
                     </p>
                   </dt>
                   <dd className="mt-2 ml-16 text-base text-gray-500">
                     {" "}
-                    A popular project demonstrating the use of cutting-edge technology or innovative approaches.
+                    
+                    Implemented a secure RESTful API for FinTech, integrating multiple banking services. Used OAuth2.0 for authentication and GraphQL for efficient data queries.
                   </dd>
                 </div>
               </dl>

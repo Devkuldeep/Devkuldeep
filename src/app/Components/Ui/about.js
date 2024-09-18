@@ -291,7 +291,7 @@ export default function About() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="lg:text-center">
               <h2 className="font-heading mb-4 bg-orange-100 text-orange-900 px-4 py-2 rounded-lg md:w-64 md:mx-auto text-sm font-semibold tracking-widest  uppercase title-font ">
-                Why choose us?
+                Why choose me?
               </h2>
               <p className="font-heading mt-8  sm:mt-2 text-xl  font-semibold tracking-tight leading-tight text-gray-900 sm:text-4xl capitalize">
                 I know tech, I know the solutions. I am web expert.

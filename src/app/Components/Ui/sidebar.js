@@ -8,13 +8,22 @@ import Link from "next/link";
 
 export default function Sidebar() {
 
-    function handleClick() {
+    function handleClick() {//funtion for toggling menu
      var sidebar = document.getElementById('sidebar');
       sidebar.classList.toggle('hidden');
       }
 
+      function handleLinkClick(){
+        let navLinks = document.querySelectorAll('.navLink');
+        navLinks.forEach((link) => {
+          sidebar.classList.add('hidden');
+          // onClick={handleLinkClick}
+        })
+           
+      }
+
   return (<>
-   <div className=" fixed top-3 left-2 z-[1000] w-auto ">
+   <div className="toggleMenu fixed top-3 left-2 z-[1000] w-auto ">
     <div className="px-4 py-2  "><button onClick={handleClick}>
     <Image
       src="/menu-line.png"
@@ -40,7 +49,7 @@ export default function Sidebar() {
       <li>
         <Link
           href="/"
-          className="block rounded-lg bg-gray-100 px-4 py-2 text-lg font-semibold text-gray-700"
+          className=" navLink block rounded-lg bg-gray-100 px-4 py-2 text-lg font-semibold text-gray-700"  onClick={handleLinkClick}
         >
           Home
         </Link>
@@ -51,7 +60,7 @@ export default function Sidebar() {
       <li>
         <Link
           href="/#about"
-          className="block rounded-lg px-4 py-2 text-lg font-semibold text-gray-500 hover:bg-gray-100 hover:text-gray-700"
+          className=" navLink block rounded-lg px-4 py-2 text-lg font-semibold text-gray-500 hover:bg-gray-100 hover:text-gray-700"  onClick={handleLinkClick}
         >
           About
         </Link>
@@ -60,7 +69,7 @@ export default function Sidebar() {
       <li>
         <Link
           href="/#contact"
-          className="block rounded-lg px-4 py-2 text-lg font-semibold text-gray-500 hover:bg-gray-100 hover:text-gray-700"
+          className=" navLink block rounded-lg px-4 py-2 text-lg font-semibold text-gray-500 hover:bg-gray-100 hover:text-gray-700"  onClick={handleLinkClick}
         >
           Contact
         </Link>
@@ -93,7 +102,7 @@ export default function Sidebar() {
             <li>
               <Link
                 href="webdevelopment"
-                className="block rounded-lg px-4 py-2 text-sm font-semibold text-gray-500 hover:bg-gray-100 hover:text-gray-700"
+                className=" navLink block rounded-lg px-4 py-2 text-sm font-semibold text-gray-500 hover:bg-gray-100 hover:text-gray-700"  onClick={handleLinkClick}
               >
                 Web Development
               </Link>
@@ -102,7 +111,7 @@ export default function Sidebar() {
             <li>
               <Link
                 href="graphics"
-                className="block rounded-lg px-4 py-2 text-sm font-semibold text-gray-500 hover:bg-gray-100 hover:text-gray-700"
+                className=" navLink block rounded-lg px-4 py-2 text-sm font-semibold text-gray-500 hover:bg-gray-100 hover:text-gray-700"  onClick={handleLinkClick}
               >
                 Graphic Design
               </Link>
@@ -111,7 +120,7 @@ export default function Sidebar() {
             <li>
               <Link
                 href="blogs"
-                className="block rounded-lg px-4 py-2 text-sm font-semibold text-gray-500 hover:bg-gray-100 hover:text-gray-700"
+                className=" navLink block rounded-lg px-4 py-2 text-sm font-semibold text-gray-500 hover:bg-gray-100 hover:text-gray-700"  onClick={handleLinkClick}
               >
                Blogs
               </Link>
